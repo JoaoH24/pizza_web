@@ -1,0 +1,157 @@
+:root {
+  --color: #d82300;
+  --color-bg: #1e1e1e;
+  --color-text1: white;
+  --main-fam-font: "Alfa Slab One", serif;
+  --main-fam-weight: 400;
+  --main-fam-style: normal;
+  --alter-fam-font: "Inter";
+  --alter-fam-style: 400;
+}
+
+/* * {
+  font-family: "Alfa Slab One", serif;
+  font-weight: 400;
+  font-style: normal;
+
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+} */
+
+body {
+  margin: 0px;
+  background-color: var(--color-bg);
+  background-image: url(../../assets/images/BG_pared.png);
+}
+
+h1 {
+  font-family: var(--main-fam-font);
+  font-weight: var(--main-fam-weight);
+  font-style: var(--main-fam-style);
+  color: var(--color-text1);
+}
+.logo {
+  height: 100px;
+  margin-left: 50px;
+}
+
+nav {
+  display: flex;
+  background-color: var(--color-bg);
+  background-image: url(../../assets/images/BG_pared.png);
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.main-title {
+  width: 68%;
+  margin: 0;
+  padding: 2rem 0 0 0;
+}
+
+.container-labels {
+  display: flex;
+  width: 22%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.labels-menu {
+  color: white;
+  text-decoration: none;
+  padding: 2.5rem 0.5rem 0 0;
+  font-family: var(--alter-fam-font);
+  font-weight: 600;
+}
+
+.text {
+  color: var(--color-text1);
+  font-family: "Inter";
+}
+
+.container {
+  color: white;
+  font-family: "Inter";
+}
+
+body {
+  font-family: Alfa Slab One, sans-serif;
+  margin: 0px;
+  padding: 10px 0;
+  /*   background-color: #ff8730; */
+}
+
+main {
+  padding: 20px 0;
+  margin: 0px;
+}
+
+.about-us {
+  padding: 0;
+  background-image: url(../../assets/images/BG_pared.png);
+  background-color: var(--color-bg);
+}
+
+.about-us .container {
+  width: 80%;
+  margin: 0px auto;
+  text-align: center;
+}
+
+.about-us h2 {
+  background-color: var(--color);
+  font-family: var(--main-fam-font);
+  font-weight: 200;
+  margin-bottom: 80px;
+  font-size: 2.5em;
+  color: var(--color-text1);
+  padding: 10px;
+  display: inline-block;
+  border-radius: 20px;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.about-content img {
+  max-width: 50%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.about-content .text {
+  max-width: 800px;
+  text-align: center;
+}
+
+.about-content .text p {
+  margin-bottom: 15px;
+}
+
+footer {
+  background-color: #333;
+  /*   color: white; */
+  padding: 10px 0;
+  text-align: center;
+}
+
+footer .container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.logo-center {
+    width: 280px;
+}
+
+iframe {
+  width: 100vw;
+}

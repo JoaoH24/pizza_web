@@ -1,0 +1,178 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f9fa;
+  overflow: hidden;
+  position: relative;
+}
+
+:root {
+  --color: #d82300;
+  --color-bg: #1e1e1e;
+  --color-text1: white;
+  --main-fam-font: "Alfa Slab One", serif;
+  --main-fam-weight: 400;
+  --main-fam-style: normal;
+  --alter-fam-font: "Inter";
+  --alter-fam-style: 400;
+}
+
+/* * {
+  font-family: "Alfa Slab One", serif;
+  font-weight: 400;
+  font-style: normal;
+
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+} */
+
+h1 {
+  font-family: var(--main-fam-font);
+  font-weight: var(--main-fam-weight);
+  font-style: var(--main-fam-style);
+  color: var(--color-text1);
+}
+.logo {
+  height: 100px;
+  margin-left: 50px;
+}
+
+nav {
+  display: flex;
+  background-color: var(--color-bg);
+  background-image: url(../../assets/images/BG_pared.png);
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.main-title {
+  width: 68%;
+  margin: 0;
+  padding: 2rem 0 0 0;
+}
+
+.container-labels {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.labels-menu {
+  color: white;
+  text-decoration: none;
+
+  padding: 2.5rem 0.5rem 0 0;
+  font-family: var(--alter-fam-font);
+  font-weight: 600;
+}
+
+body::before {
+  content: "";
+  background: url("https://img.freepik.com/fotos-premium/pizza-pepperoni-tira-queso-delante-horno-lena-fuego-segundo-plano_266402-1136.jpg?w=1380")
+    no-repeat center center fixed;
+  background-size: cover;
+  filter: blur(10px);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.container {
+  position: relative;
+  width: 90%;
+  max-width: 600px;
+  padding: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.9); /* Fondo semitransparente */
+  border-radius: 8px;
+  color: #333;
+  z-index: 1;
+}
+
+header {
+  padding: 20px;
+  border-radius: 8px 8px 0 0;
+  color: white;
+  text-align: center;
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* Semitransparent background for better readability */
+}
+
+h1 {
+  margin: 0;
+}
+
+main {
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #555;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: #80bdff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.25);
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.hidden {
+  display: none;
+}

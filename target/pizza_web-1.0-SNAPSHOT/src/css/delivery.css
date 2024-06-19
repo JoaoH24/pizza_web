@@ -48,7 +48,7 @@ h1 {
 nav {
   display: flex;
   background-color: var(--color-bg);
-  background-image: url(/assets/images/BG_pared.png);
+  background-image: url(../../assets/images/BG_pared.png);
   flex-direction: row;
   flex-wrap: wrap;
 }

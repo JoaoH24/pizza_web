@@ -1,0 +1,238 @@
+:root {
+  --color: #d82300;
+  --color-bg: #1e1e1e;
+  --color-text1: white;
+  --main-fam-font: "Alfa Slab One", serif;
+  --main-fam-weight: 400;
+  --main-fam-style: normal;
+  --alter-fam-font: "Inter";
+  --alter-fam-style: 400;
+}
+
+/* * {
+  font-family: "Alfa Slab One", serif;
+  font-weight: 400;
+  font-style: normal;
+
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+} */
+
+h1 {
+  font-family: var(--main-fam-font);
+  font-weight: var(--main-fam-weight);
+  font-style: var(--main-fam-style);
+  color: var(--color-text1);
+}
+.logo {
+  height: 100px;
+  margin-left: 50px;
+}
+
+nav {
+  display: flex;
+  background-color: var(--color-bg);
+  background-image: url(../../assets/images/BG_pared.png);
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.main-title {
+  width: 68%;
+  margin: 0;
+  padding: 2rem 0 0 0;
+}
+
+.container-labels {
+  display: flex;
+  width: 22%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.labels-menu {
+  color: white;
+  text-decoration: none;
+  padding: 2.5rem 0.5rem 0 0;
+  font-family: var(--alter-fam-font);
+  font-weight: 600;
+}
+
+.banner {
+  position: relative;
+  height: 90vh;
+  background-color: #1e1e1e;
+  background-image: url(../../assets/images/BG_pared.png);
+}
+
+.subtitle {
+  position: absolute;
+  font-family: var(--main-fam-font);
+  font-style: var(--main-fam-style);
+  font-weight: var(--main-fam-weight);
+  font-size: 54px;
+  top: 180px;
+  left: 140px;
+  color: var(--color-text1);
+  margin: 0;
+}
+
+.description-brif {
+  position: absolute;
+  color: var(--color-text1);
+  font-family: var(--alter-fam-font);
+  font-style: italic;
+  font-weight: 300;
+  font-size: 20px;
+  width: 700px;
+  margin: 0;
+  top: 280px;
+  left: 140px;
+}
+
+.any-text {
+  position: absolute;
+  color: var(--color);
+  font-size: 22px;
+  font-family: var(--alter-fam-font);
+  font-style: italic;
+  font-weight: 800;
+  margin: 0;
+  top: 370px;
+  left: 140px;
+}
+
+.colec-pizzas {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  top: 420px;
+  left: 120px;
+  /*   justify-content: space-around; */
+}
+
+.little-pizza {
+  width: 100px;
+}
+
+.adorno {
+  position: absolute;
+  top: 114px;
+  left: 1125px;
+}
+
+.pizza-principal {
+  position: absolute;
+  width: 600px;
+  top: 480px;
+  left: 1290px;
+}
+
+.hoja1 {
+  position: absolute;
+  left: 100px;
+  top: 520px;
+}
+
+.hoja2 {
+  position: absolute;
+  top: 400px;
+  left: 1080px;
+}
+
+.hongo1 {
+  position: absolute;
+  top: 60px;
+  left: 180px;
+}
+
+.hongo2 {
+  position: absolute;
+  top: 140px;
+  left: 980px;
+}
+
+.pizza-vec {
+  position: absolute;
+  top: 550px;
+  left: 480px;
+}
+
+.tocino {
+  position: absolute;
+  left: 1650px;
+}
+
+.subtitle-productos {
+  font-family: var(--main-fam-font);
+  font-style: var(--main-fam-style);
+  font-weight: var(--main-fam-weight);
+  font-size: 40px;
+  color: var(--color);
+  margin: 100px 40% 10px;
+}
+
+.divider-prod {
+  display: block;
+  width: 28%;
+  height: 5px;
+  margin: auto;
+  background-color: var(--color);
+}
+
+.container-productos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: white;
+}
+
+.container-pizza {
+  display: flex;
+  margin: 50px 100px 0 50px;
+  padding: 20px;
+  width: 25%;
+  flex-direction: column;
+  border-radius: 20px;
+  border-color: #1e1e1e;
+  border-style: solid;
+  border-width: 2.5px;
+}
+
+.img-pizza {
+  width: 400px;
+  margin: auto;
+}
+
+.pizza {
+  font-family: var(--main-fam-font);
+  font-style: var(--main-fam-style);
+  font-weight: var(--main-fam-weight);
+  color: var(--color);
+}
+
+.description {
+  color: black;
+  font-family: var(--alter-fam-font);
+  font-style: var(--alter-fam-style);
+  font-weight: 400;
+}
+
+button {
+  background-color: var(--color);
+  color: var(--color-text1);
+  font-family: var(--alter-fam-font);
+  font-style: var(--alter-fam-style);
+  margin: auto;
+  font-weight: 800;
+  width: 140px;
+  height: 40px;
+  border-radius: 10px;
+  border-color: var(--color);
+}
